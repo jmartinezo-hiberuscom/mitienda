@@ -13,12 +13,10 @@ export default function decorate(block) {
     const summary = document.createElement('summary');
     summary.className = 'accordion-item-label';
     summary.append(...label.childNodes);
-
     const span = document.createElement('span');
     span.className = 'accordion-item-icon icon icon-chevron-down';
     summary.append(span);
-    decorateIcons(summary);  // decora los span.icon dentro del summary
-
+    decorateIcons(summary);
     const body = row.children[1];
     body.className = 'accordion-item-body';
     // decorate accordion item
