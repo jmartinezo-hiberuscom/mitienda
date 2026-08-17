@@ -49,7 +49,7 @@
           "name": "subtitle",
           "value": "",
           "label": "Subtitle",
-          "required": true
+          "required": false
         },
         {
           "component": "richtext",
