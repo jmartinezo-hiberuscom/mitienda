@@ -17,7 +17,14 @@ export default function decorate(block) {
     span.className = 'accordion-item-icon icon icon-chevron-down';
     summary.append(span);
     decorateIcons(summary);
-    const body = row.children[1];
+    const subtitle = row.children[1];
+    if (subtitle) {
+      const title = document.createElement('p');
+      title.className = 'accordion-item-subtitle';
+      title.append(...subtitle.childNodes);
+      summary.append(title);
+    }
+    const body = row.children[2];
     body.className = 'accordion-item-body';
     // decorate accordion item
     const details = document.createElement('details');

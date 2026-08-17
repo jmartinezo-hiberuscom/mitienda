@@ -24,7 +24,8 @@
           "columns": 0,
           "fields": [
             { "name": "summary", "selector": "div:nth-child(1)" },
-            { "name": "text", "selector": "div:nth-child(2)" }
+            { "name": "subtitle", "selector": "div:nth-child(2)" },
+            { "name": "text", "selector": "div:nth-child(3)" }
           ]
         }
       }
@@ -40,6 +41,14 @@
           "name": "summary",
           "value": "",
           "label": "Summary",
+          "required": true
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "subtitle",
+          "value": "",
+          "label": "Subtitle",
           "required": true
         },
         {

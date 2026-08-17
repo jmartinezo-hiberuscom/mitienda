@@ -86,8 +86,12 @@
                   "selector": "div:nth-child(1)"
                 },
                 {
-                  "name": "text",
+                  "name": "subtitle",
                   "selector": "div:nth-child(2)"
+                },
+                {
+                  "name": "text",
+                  "selector": "div:nth-child(3)"
                 }
               ]
             }

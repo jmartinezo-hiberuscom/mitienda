@@ -171,6 +171,14 @@
       },
       {
         "component": "richtext",
+        "valueType": "string",
+        "name": "subtitle",
+        "value": "",
+        "label": "Subtitle",
+        "required": true
+      },
+      {
+        "component": "richtext",
         "name": "text",
         "value": "",
         "label": "Text",
