@@ -1,0 +1,10 @@
+{
+  "data": {
+    "helix-blocks": [
+      {
+        "name": "Buttons",
+        "path": "/tools/sidekick/blocks/buttons"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  ":type": "multi-sheet",
+  ":names": [
+    "blocks"
+  ],
+  "blocks": {
+    ":type": "sheet",
+    ":sheetname": "blocks",
+    "data": [
+      {
+        "name": "Accordion",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/accordion"
+      },
+      {
+        "name": "Cards",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/cards"
+      },
+      {
+        "name": "Carousel",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/carousel"
+      },
+      {
+        "name": "Columns",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/columns"
+      },
+      {
+        "name": "Enrichment",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/enrichment"
+      },
+      {
+        "name": "Fragment",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/fragment"
+      },
+      {
+        "name": "Hero",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/hero"
+      },
+      {
+        "name": "Product Details",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/product-details"
+      },
+      {
+        "name": "Product List Page",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/product-list-page"
+      },
+      {
+        "name": "Product Recommendations",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/product-recommendations"
+      },
+      {
+        "name": "Targeted Block",
+        "path": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/blocks/targeted-block"
+      }
+    ]
+  }
+}

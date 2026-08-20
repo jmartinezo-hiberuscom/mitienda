@@ -1,0 +1,24 @@
+{
+  ":type": "multi-sheet",
+  ":names": [
+    "templates"
+  ],
+  "templates": {
+    ":type": "sheet",
+    ":sheetname": "templates",
+    "data": [
+      {
+        "key": "Producto (PDP)",
+        "value": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/templates/pdp"
+      },
+      {
+        "key": "Página",
+        "value": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/templates/pagina"
+      },
+      {
+        "key": "Landing",
+        "value": "https://content.da.live/hiberus-magento/sports-emotion-storefront/library/templates/landing"
+      }
+    ]
+  }
+}

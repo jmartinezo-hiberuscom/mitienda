@@ -16,6 +16,8 @@
     "build:json:models": "merge-json-cli -i \"models/_component-models.json\" -o \"component-models.json\"",
     "build:json:definitions": "merge-json-cli -i \"models/_component-definition.json\" -o \"component-definition.json\"",
     "build:json:filters": "merge-json-cli -i \"models/_component-filters.json\" -o \"component-filters.json\"",
+    "generate:library": "node tools/library-generator/generate.mjs",
+    "sync:da-library": "node tools/library-generator/sync-da.mjs",
     "prepare": "husky"
   },
   "repository": {
